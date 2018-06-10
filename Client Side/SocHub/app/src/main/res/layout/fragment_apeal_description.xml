@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".apealDescription"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/apealBar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryBright"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/msg"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryBright"
+                android:clickable="true"
+                android:src="@drawable/ic_textsms_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/fav"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryBright"
+                android:clickable="true"
+                android:src="@drawable/ic_favorite_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/con"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryBright"
+                android:clickable="true"
+                android:src="@drawable/ic_settings_phone_white_24dp" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="3"
+        android:background="@color/colorPrimaryBright"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="#FFF" />
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/By"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="By"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/Closed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Closed" />
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Date" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dsc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="TextView"
+            android:visibility="gone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar64"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

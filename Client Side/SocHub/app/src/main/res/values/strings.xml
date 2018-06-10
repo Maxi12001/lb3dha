@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">يسر</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_apeal_view">ApealView</string>
+    <string name="title_activity_sign_up">signUp</string>
+    <string name="title_activity_new_apeal2">newApeal2</string>
+    <string name="title_activity_reminder_list">reminderList</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_new_apeal">NewApeal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="title_activity_n_apeal">nApeal</string>
+    <string name="title_activity_last24">last24</string>
+    <string name="title_activity_comp_sign_up">compSignUp</string>
+    <string name="title_activity_start">start</string>
+</resources>
